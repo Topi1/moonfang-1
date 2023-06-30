@@ -12,7 +12,7 @@ function App() {
     <Sidebar/>
       <div className="maindisplay">
         <Navbar/>
-
+        <article className="artic"></article>
       </div>
     </div>
   )

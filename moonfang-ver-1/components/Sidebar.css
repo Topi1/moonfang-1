@@ -49,6 +49,7 @@
 
 .sidebarsection {
     height: 60vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -82,8 +83,32 @@
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     
+}
+
+.iconsection {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sidelink p {
+    display: flex;
+    width: 50%;
+    
+}
+
+.sidelink:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.sidebaricon {
+    display: flex;
+    width: 4em;
+    height: auto;
 }
 
 .sideBarCloseBtn {
@@ -131,6 +156,7 @@
 .logo {
     cursor: pointer;
     width: 100%;
+    height: auto;
     
 }
 
@@ -138,16 +164,16 @@
     padding-top: 2em;
 }
 
-.sidebaricon {
-    width: 50%;
-    height: auto;
-}
-
-
-.sidelink:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
 .sideFooter {
     height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerSection {
+    height: 80%;
+    width: 70%;
+    
 }

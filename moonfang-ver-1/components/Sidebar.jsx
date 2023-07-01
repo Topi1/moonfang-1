@@ -3,6 +3,10 @@ import "./Sidebar.css"
 import logo2 from "../pictures/FangText.png"
 import logo from "../pictures/FangLogo.png"
 import menu from "../pictures/Hamburger.png"
+import login from "../pictures/logIn.png"
+import games from "../pictures/GamesIcon.png"
+import news from "../pictures/newsIcon.png"
+import contact from "../pictures/contactIcon.png"
 
 
 
@@ -42,13 +46,29 @@ function handleClick() {
 
             
             <section className = "sidebarsection">
-                <a href="" className='sidelink'> <img src={logo2} alt="" className='sidebaricon'/> {!show ? <p>SIGN IN / SIGN UP</p> :null}</a>
-                <a href="" className='sidelink'> <img src={logo2} alt="" className='sidebaricon'/> {!show ? <p>NEWS</p> :null}</a>
-                <a href="" className='sidelink'> <img src={logo2} alt="" className='sidebaricon'/> {!show ? <p>GAMES</p> :null}</a>
-                <a href="" className='sidelink'> <img src={logo2} alt="" className='sidebaricon'/> {!show ? <p>CONTACT</p> :null}</a>
+                <a href="" className='sidelink'> 
+                    <section className="iconsection"><img src={login} alt="" className='sidebaricon'/></section> 
+                    {!show ? <p>SIGN IN / SIGN UP</p> :null}
+                </a>
+                <a href="" className='sidelink'> 
+                    <section className="iconsection"><img src={news} alt="" className='sidebaricon'/></section> 
+                    {!show ? <p>NEWS</p> :null}
+                </a>
+                <a href="" className='sidelink'> 
+                    <section className="iconsection"><img src={games} alt="" className='sidebaricon'/></section> 
+                    {!show ? <p>GAMES</p> :null}
+                </a>
+                <a href="" className='sidelink'> 
+                    <section className="iconsection"><img src={contact} alt="" className='sidebaricon'/></section> 
+                    {!show ? <p>CONTACT</p> :null}
+                </a>
             </section>
 
-            <footer className='sideFooter'></footer>
+            <footer className='sideFooter'>
+                <section className="footerSection">
+
+                </section>
+            </footer>
     </div>
   )
 }
